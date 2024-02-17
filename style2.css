@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-image: url(Site/Imagem_do_WhatsApp_de_2024-02-13_à_s__20.39.30_c0211e64-removebg-preview.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 70%;
+    
+}
+
+main{
+    box-shadow: 2px 2px 2px black;
+    max-height: 500px;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{text-align: center;}
+
+p{
+    text-size-adjust: 2em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    color: #ffffff;
+    padding: 10px 0px 0px;
+    font-weight: bolder;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #a643fde3, rgba(255, 255, 255, 0) );  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset,
+    0 0 20px linear-gradient(to right, #fd4343e3, rgba(5, 5, 5, 0), rgba(255, 255, 255, 0));
+}
+    
+    
+nav :hover{
+    background-color: #8600FF;
+    color: #d6a7ff;
+    transition-duration: 0.7s;
+    border-radius: 15px;}
+
+
+nav > p{
+    display: flex;
+    padding: 10px;}
+    

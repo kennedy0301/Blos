@@ -11,7 +11,7 @@ nav {
     padding: 10px 0px 0px;
     font-weight: bolder;
     border-radius: 8px;
-    background-image: linear-gradient(to right, #a643fde3, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) );  
+    background-image: linear-gradient(to right, #a643fde3, rgba(255, 255, 255, 0) );  
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset,
     0 0 20px linear-gradient(to right, #fd4343e3, rgba(5, 5, 5, 0), rgba(255, 255, 255, 0));
 }
@@ -37,21 +37,20 @@ nav > p{
 
 h1{
     font-family: track;
-    color: rgb(2, 9, 187);
+    color: #081B6C;
     line-height: 0.5em;
+    
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(Site/Imagem/img1.jpg);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 75%;
+   
    
 }
 
 .cartao{
+    margin: auto;   
     height: 279px;
     width: 200px;
     margin: 30px;    
@@ -60,6 +59,7 @@ body{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
      
 }
+
 
 .cartao > h1{
     line-height: 1em;
@@ -74,6 +74,9 @@ body{
     
 }
 
+
+
+
 main > h1{
     color: #8600FF;
 }
@@ -83,3 +86,10 @@ footer{
     margin: 0;
     padding: 5px 5px 5px ;
 }
+
+main{
+    background-image: url(Site/Imagem/img1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center right;
+}   
